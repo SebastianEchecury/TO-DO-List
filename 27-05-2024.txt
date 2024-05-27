@@ -1,0 +1,73 @@
+TO-DO List 
+
+ID: 12.George, Cassandra
+Not Done
+ID: 1 - Buy meat
+Done
+No finished activities
+
+
+ID: 13.Collins, Kelly
+Not Done
+No pending activities
+Done
+No finished activities
+
+
+ID: 14.Johnson, Danny
+Not Done
+ID: 5 - Clean the house
+ID: 4 - Go to the gym
+Done
+No finished activities
+
+
+ID: 15.Bennett, Peter
+Not Done
+ID: 3 - Buy ball
+Done
+No finished activities
+
+
+ID: 16.Owen, Jason
+Not Done
+No pending activities
+Done
+No finished activities
+
+
+ID: 17.Frederick, Steven
+Not Done
+No pending activities
+Done
+No finished activities
+
+
+ID: 18.Olsen, Cynthia
+Not Done
+No pending activities
+Done
+No finished activities
+
+
+ID: 19.Stevens, Kristina
+Not Done
+No pending activities
+Done
+No finished activities
+
+
+ID: 20.Ramsey, Michael
+Not Done
+No pending activities
+Done
+No finished activities
+
+
+ID: 21.Sullivan, Tom
+Not Done
+ID: 2 - Do homework
+Done
+No finished activities
+
+
