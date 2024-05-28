@@ -1,11 +1,13 @@
-CREATE TABLE Person(
+CREATE TABLE Person( -- DROP TABLE Person
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(150),
 	lastName VARCHAR(150),
-	birthDate DATE
+	birthDate DATE,
+	role VARCHAR(50),
+	password VARCHAR(70)
 );
 
-CREATE TABLE Activity(
+CREATE TABLE Activity( -- DROP TABLE Activity
 	id SERIAL PRIMARY KEY,
 	description VARCHAR(150)
 );

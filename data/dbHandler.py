@@ -30,8 +30,8 @@ class DbHandler():
         conn = self.getConnection(conn)
         cursor = conn.cursor()
         query = f'''
-        INSERT INTO Person (name, lastName, birthDate)
-        VALUES ('{p.getName()}', '{p.getLastName()}', '{p.getBirthDate()}')
+        INSERT INTO Person (name, lastName, birthDate, role, password)
+        VALUES ('{p.getName()}', '{p.getLastName()}', '{p.getBirthDate()}', '{p.getRole()}', '{p.getPassword()}')
         '''
         cursor.execute(query)
         conn.commit()
@@ -122,7 +122,7 @@ class DbHandler():
         aux = cursor.fetchall()
         persons = list()
         for p in aux:
-            p1 = (pe.Person(p[1], p[2], p[3], p[0]))
+            p1 = (pe.Person(p[1], p[2], p[3], p[4], p[5], p[0]))
             persons.append(p1)
         self.closeConnection(conn)
         return persons
@@ -181,4 +181,21 @@ class DbHandler():
         conn.commit()
         self.closeConnection(conn)
 
-    
+    def getPersonByID(self, id):
+        conn = ''
+        conn = self.getConnection(conn)
+        cursor = conn.cursor()
+        query = f'''
+            SELECT * 
+            FROM Person
+            WHERE id = {id}
+            '''
+        cursor.execute(query)
+        aux = cursor.fetchone()
+        p = ''
+        if not aux:
+            return False
+        else:
+            p = pe.Person(aux[1], aux[2], aux[3], aux[4], aux[5], aux[0])
+        self.closeConnection(conn)
+        return p
