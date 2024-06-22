@@ -1,0 +1,11 @@
+hackathon feedback
+
+- Technology 7/8 : includes several key technologies, such as psycopg2 for PostgreSQL database interactions, faker for generating fake data, and custom modules for password hashing and menu navigation. The implementation shows a good level of complexity in managing user activities and data.
+- Completion 8/8 : fully functional, allowing users to log in, view, assign, and update activities. Both user and admin functionalities are implemented comprehensively.
+- Learning 6/8: use of psycopg2 for database interactions, faker for generating test data, and implementing password hashing and verification. There is room for further learning, such as integrating an external API.
+
+Total 21/24
+
+Very good project ! You showcase a strong understanding of the technologies used, full completion of the project goals, and significant learning efforts while there is room for further learning.You demonstrate good proficiency in database management, user authentication, and practical implementation of a to-do list system. 
+
+Well done !
